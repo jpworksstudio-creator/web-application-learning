@@ -38,4 +38,18 @@ Issue の項目定義、完了判断、Verification の詳細など**開発プ�
 
 ## 始め方
 
-現状はドキュメント整備中です。アプリの起動手順は、Next.js 初期化（Issue #2 以降）で追加します。
+前提: Node.js（LTS 推奨）がインストールされていること。
+
+```bash
+npm install
+npm run dev
+```
+
+ブラウザで [http://localhost:3000](http://localhost:3000) を開くと、Next.js の初期画面が表示されます。
+
+その他の確認コマンド:
+
+```bash
+npm run lint
+npm run build
+```
