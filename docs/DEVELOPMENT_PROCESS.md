@@ -14,7 +14,8 @@ README は概要と入口のみとし、詳細はここに集約する。
 5. **AI Review** — 差分レビュー（バグ・学習上の誤解・セキュリティ）
 6. **Pull Request** — 概要・Verification 結果・AI Review・Learning Done を記載（Functional Done の再掲はしない）
 7. **Merge**
-8. **振り返り** — 理解したこと / まだ曖昧なこと / 次の Issue（短く）
+8. **Vercel 確認** — Merge 後、Vercel の Production Deployment が成功し、公開URLに変更が反映されたことを確認する
+9. **振り返り** — 理解したこと / まだ曖昧なこと / 次の Issue（短く）
 
 ## 共通用語
 

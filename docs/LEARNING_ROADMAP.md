@@ -6,7 +6,7 @@
 
 ## 横断ルール
 
-- **AI駆動サイクル**（Issue → Plan → Implementation → Verification → AI Review → PR → Merge → 振り返り）は Phase 0 から毎 Issue で実施する
+- **AI駆動サイクル**（Issue → Plan → Implementation → Verification → AI Review → PR → Merge → Vercel 確認 → 振り返り）は Phase 0 から毎 Issue で実施する
 - 各 Phase・各 Issue では **Functional Done**（何ができれば完成か）・**Learning Done**（何を理解できれば学習完了か）・**Verification**（Functional Done をどう確認するか）の3つをセットで意識する
 - Phase 7 / 8 は Verification / AI駆動を「開始」する場所ではなく、自動化・高度化のフェーズ
 

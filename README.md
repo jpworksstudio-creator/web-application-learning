@@ -13,7 +13,7 @@ Udemy「Next.js フルスタック開発基本講座」をロードマップに�
 
 GitHub Issue を起点に、次のサイクルで進めます。
 
-Issue → Plan → Implementation → Verification → AI Review → PR → Merge → 振り返り
+Issue → Plan → Implementation → Verification → AI Review → PR → Merge → Vercel 確認 → 振り返り
 
 Issue の項目定義、完了判断、Verification の詳細など**開発プロセスの正本**は次を参照してください。
 
@@ -30,6 +30,12 @@ Issue の項目定義、完了判断、Verification の詳細など**開発プ�
 | Supabase | PostgreSQL のホスティング |
 | Vercel | デプロイ |
 | Git / GitHub | Issue・PR・レビュー |
+
+## 公開URL
+
+https://web-application-learning.vercel.app/
+
+`main` ブランチの内容が Vercel の Production Deployment として公開されます。
 
 ## ドキュメント
 
