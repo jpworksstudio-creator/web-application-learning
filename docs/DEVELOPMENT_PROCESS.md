@@ -72,6 +72,7 @@ Issue の Verification 欄に、その Issue で必要な手順を書く。共�
 
 - **手動確認** — Functional Done どおりか確認する
 - **`build` / `lint`** — プロジェクト導入後は必須。未導入の Issue（ドキュメントのみ等）は対象外と明記
+- **CI（GitHub Actions）** — PR 作成時に `lint` / `build` を GitHub 上で自動再実行する。Local Verification の代わりではなく、再確認として使う
 - **Learning Done 自己確認** — 説明できる状態か自分で確かめる
 
 Phase 7 以降は、上記に加えて自動化テスト（Vitest / Playwright 等）も含める。
