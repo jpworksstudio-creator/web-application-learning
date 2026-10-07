@@ -6,7 +6,7 @@
 
 ## 横断ルール
 
-- **AI駆動サイクル**（Issue → Plan → Implementation → Verification → AI Review → PR → Merge → Vercel 確認 → 振り返り）は Phase 0 から毎 Issue で実施する
+- **AI駆動サイクル**（Issue → Plan → Implementation → Local Verification → Learning Check → AI Review → commit / push → PR → CI → Preview Deployment → Final Learning Done → Merge → Production Deployment → 振り返り）は Phase 0 から毎 Issue で実施する
 - 各 Phase・各 Issue では **Functional Done**（何ができれば完成か）・**Learning Done**（何を理解できれば学習完了か）・**Verification**（Functional Done をどう確認するか）の3つをセットで意識する
 - Phase 7 / 8 は Verification / AI駆動を「開始」する場所ではなく、自動化・高度化のフェーズ
 
@@ -46,7 +46,7 @@ Auth.js でログイン必須ページ、自分のデータだけ見える CRUD�
 
 ### Phase 7 — Test 自動化・高度化
 
-手動 + build + lint を土台に Vitest / Playwright などで自動化。CI 組み込みを検討。
+手動 + build + lint を土台に Vitest / Playwright などで自動化。導入済みの CI（GitHub Actions）にテストを組み込む。
 
 ### Phase 8 — AI駆動開発の高度化
 

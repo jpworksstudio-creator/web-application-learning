@@ -13,7 +13,7 @@ Udemy「Next.js フルスタック開発基本講座」をロードマップに�
 
 GitHub Issue を起点に、次のサイクルで進めます。
 
-Issue → Plan → Implementation → Verification → AI Review → PR → Merge → Vercel 確認 → 振り返り
+Issue → Plan → Implementation → Local Verification → Learning Check → AI Review → commit / push → PR → CI → Preview Deployment → Final Learning Done → Merge → Production Deployment → 振り返り
 
 Issue の項目定義、完了判断、Verification の詳細など**開発プロセスの正本**は次を参照してください。
 
