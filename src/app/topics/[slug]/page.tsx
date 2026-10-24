@@ -13,13 +13,13 @@ export default async function TopicDetailPage({
   }
 
   return (
-    <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-16">
+    <>
       <span className="text-sm text-zinc-500">{topic.phase}</span>
       <h1 className="mt-1 text-3xl font-bold">{topic.title}</h1>
       <p className="mt-6 leading-7">{topic.description}</p>
       <Link href="/topics" className="mt-8 inline-block underline">
         学習トピック一覧へ戻る
       </Link>
-    </main>
+    </>
   );
 }
