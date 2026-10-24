@@ -3,7 +3,7 @@ import { topics } from "@/data/topics";
 
 export default function TopicsPage() {
   return (
-    <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-16">
+    <>
       <h1 className="text-3xl font-bold">学習トピック一覧</h1>
       <ul className="mt-8 flex flex-col gap-4">
         {topics.map((topic) => (
@@ -22,6 +22,6 @@ export default function TopicsPage() {
       <Link href="/" className="mt-8 inline-block underline">
         トップへ戻る
       </Link>
-    </main>
+    </>
   );
 }
