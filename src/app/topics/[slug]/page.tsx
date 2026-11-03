@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { LearnedToggle } from "@/components/LearnedToggle";
 import { getTopicBySlug } from "@/data/topics";
 
 export default async function TopicDetailPage({
@@ -17,6 +18,7 @@ export default async function TopicDetailPage({
       <span className="text-sm text-zinc-500">{topic.phase}</span>
       <h1 className="mt-1 text-3xl font-bold">{topic.title}</h1>
       <p className="mt-6 leading-7">{topic.description}</p>
+      <LearnedToggle slug={topic.slug} />
       <Link href="/topics" className="mt-8 inline-block underline">
         学習トピック一覧へ戻る
       </Link>
